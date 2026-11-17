@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.sqlite3
+*.sqlite3-journal
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+# Local database backup and user data
+data.json
